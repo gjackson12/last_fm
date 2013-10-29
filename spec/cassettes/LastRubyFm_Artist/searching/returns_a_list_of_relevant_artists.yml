@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.audioscrobbler.com/2.0/?api_key=<LASTFM API KEY>&artist=Stone%20Temple%20Pilots&format=json&method=artist.search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2.22 (Unix)
+      X-Web-Node:
+      - www235
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Fri, 25 Oct 2013 21:19:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8;
+      Content-Length:
+      - '1160'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 24 Oct 2013 21:31:38 GMT
+      X-Varnish:
+      - 2463049426 2463024992
+      Age:
+      - '94'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+      X-Cms:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: |
+        {"results":{"opensearch:Query":{"#text":"","role":"request","searchTerms":"Stone Temple Pilots","startPage":"1"},"opensearch:totalResults":"195","opensearch:startIndex":"0","opensearch:itemsPerPage":"30","artistmatches":{"artist":[{"name":"Stone Temple Pilots","listeners":"1302301","mbid":"8c32bb01-58a3-453b-8050-8c0620edb0e5","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots","streamable":"1","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/34131153.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/34131153.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/34131153.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/34131153.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/34131153\/Stone+Temple+Pilots+stp131342.jpg","size":"mega"}]},{"name":"Sound Garden & Stone Temple Pilots","listeners":"1817","mbid":"","url":"http:\/\/www.last.fm\/music\/Sound+Garden+&+Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots with Chester Bennington","listeners":"1115","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+with+Chester+Bennington","streamable":"0","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/92771091.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/92771091.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/92771091.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/92771091.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/92771091\/Stone+Temple+Pilots+with+Chester+Bennington+StoneTemplePilotsChesterBennin.jpg","size":"mega"}]},{"name":"Stone Temple PIlots & Creed","listeners":"598","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+PIlots+&+Creed","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots feat. Chester Bennington","listeners":"653","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+feat.+Chester+Bennington","streamable":"0","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/89599545.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/89599545.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/89599545.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/89599545.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/89599545\/Stone+Temple+Pilots+feat+Chester+Bennington+6jqCOulKcIA.jpg","size":"mega"}]},{"name":"Karaoke - Stone Temple Pilots","listeners":"233","mbid":"","url":"http:\/\/www.last.fm\/music\/Karaoke+-+Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots\/Stone Temple Pilots\/Stone Temple Pilots","listeners":"8","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots%2FStone+Temple+Pilots%2FStone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u266b\u266bStone Temple Pilots","listeners":"46","mbid":"","url":"http:\/\/www.last.fm\/music\/%E2%99%AB%E2%99%ABStone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u00ca\u00af\u00c3\u00ed\u00cf\u00f2\u00b5\u00bc(Stone Temple Pilots)","listeners":"158","mbid":"","url":"http:\/\/www.last.fm\/music\/%C3%8A%C2%AF%C3%83%C3%AD%C3%8F%C3%B2%C2%B5%C2%BC(Stone+Temple+Pilots)","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u67ef\ucdf0\u8568\ub3d4(Stone Temple Pilots)","listeners":"19","mbid":"","url":"http:\/\/www.last.fm\/music\/%E6%9F%AF%EC%B7%B0%E8%95%A8%EB%8F%94(Stone+Temple+Pilots)","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Next: Stone Temple Pilots","listeners":"16","mbid":"","url":"http:\/\/www.last.fm\/music\/Next:+Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone  Temple Pilots","listeners":"15","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone++Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"\u77f3\u5e99\u5411\u5bfc(Stone Temple Pilots)","listeners":"13","mbid":"","url":"http:\/\/www.last.fm\/music\/%E7%9F%B3%E5%BA%99%E5%90%91%E5%AF%BC(Stone+Temple+Pilots)","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots-","listeners":"13","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots-","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots-Creed","listeners":"12","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots-Creed","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots (Ac\u00fastico)","listeners":"9","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+(Ac%C3%BAstico)","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots Vasoline","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+Vasoline","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"044. Stone Temple Pilots","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/044.+Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"067. Stone Temple Pilots","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/067.+Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"stone temple pilots;","listeners":"7","mbid":"","url":"http:\/\/www.last.fm\/music\/stone+temple+pilots;","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots*","listeners":"6","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots*","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"STONE TEMPLE PILOTS\/VELVET","listeners":"6","mbid":"","url":"http:\/\/www.last.fm\/music\/STONE+TEMPLE+PILOTS%2FVELVET","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots,","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots,","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots featuring","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+featuring","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"02.stone temple pilots","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/02.stone+temple+pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone Temple Pilots -4-","listeners":"5","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+Temple+Pilots+-4-","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"03.stone temple pilots","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/03.stone+temple+pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"04.stone temple pilots","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/04.stone+temple+pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"Stone temple P\u00eflots","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/Stone+temple+P%C3%AFlots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]},{"name":"07.Stone Temple Pilots","listeners":"4","mbid":"","url":"http:\/\/www.last.fm\/music\/07.Stone+Temple+Pilots","streamable":"0","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]}]},"@attr":{"for":"Stone Temple Pilots"}}}
+    http_version: 
+  recorded_at: Thu, 24 Oct 2013 21:21:44 GMT
+recorded_with: VCR 2.6.0
