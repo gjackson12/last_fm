@@ -21,7 +21,6 @@ module LastRubyFm
         else
           []
         end
-        binding.pry
       end
 
       protected
